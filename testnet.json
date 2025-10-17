@@ -232,7 +232,8 @@
     "utils": {
       "crawlerRpc": "https://rpc-arbitrum-crawler.testnet.archivist.storage",
       "botRpc": "https://rpc-arbitrum-discordbot.testnet.archivist.storage",
-      "elasticSearch": "https://es.testnet.archivist.storage"
+      "elasticSearch": "https://es.testnet.archivist.storage",
+      "gateway": "https://gateway.testnet.archivist.storage"
     }
   }
 }
