@@ -233,7 +233,8 @@
       "crawlerRpc": "https://rpc-arbitrum-crawler.testnet.archivist.storage",
       "botRpc": "https://rpc-arbitrum-discordbot.testnet.archivist.storage",
       "elasticSearch": "https://es.testnet.archivist.storage",
-      "gateway": "https://gateway.testnet.archivist.storage"
+      "gateway": "https://gateway.testnet.archivist.storage",
+      "transactionLinkFormat": "https://sepolia.arbiscan.io/tx/<ID>"
     }
   }
 }
