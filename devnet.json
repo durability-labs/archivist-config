@@ -1,0 +1,240 @@
+{
+  "latest": "v0.0.2",
+  "archivist": [
+    {
+      "version": "v0.0.2",
+      "revision": "8ef225d",
+      "contracts": "7af820e"
+    }
+  ],
+  "sprs": [
+    {
+      "supportedVersions": [
+        "v0.0.2"
+      ],
+      "records": [
+        "spr:CiUIAhIhAjvc6QmZpNnRte02ydkE-RDEPfKnOQeJQ-PjfiRwvdivEgIDARpJCicAJQgCEiECO9zpCZmk2dG17TbJ2QT5EMQ98qc5B4lD4-N-JHC92K8QkYHZxwYaCwoJBDENJ2yRAnU6GgsKCQQxDSdskQJ1OipGMEQCIFNYCZz4A3CZPPhE-8pBTcdXwx6jvXAU2SVHoXIePdsRAiByH9FLVWAWgzySg3KvLrdlXKFzSsrRyMCOby3NsjLhyg",
+        "spr:CiUIAhIhAicVTuPU2qOfoPxs_IzH_Gvgdsdp8Net7UxekM640g_IEgIDARpJCicAJQgCEiECJxVO49Tao5-g_Gz8jMf8a-B2x2nw163tTF6QzrjSD8gQmpXZxwYaCwoJBFjGXnyRAnVEGgsKCQRYxl58kQJ1RCpGMEQCIHHiAxHhMxBd_BQm8uu-8P-Uj-ICi-wYRtD0Or4HhYysAiAU2fpdjBEWxhQ41vLQORK2zpqE3D1KhBnL9mShj9QLiw",
+        "spr:CiUIAhIhAsmrLewB81-x6jgVB-t0hZMO44uhrxOgj5612o3AnM6qEgIDARpJCicAJQgCEiECyast7AHzX7HqOBUH63SFkw7ji6GvE6CPnrXajcCczqoQqp_ZxwYaCwoJBF_Yt3CRAnVOGgsKCQRf2LdwkQJ1TipHMEUCIQDZ4yMajxObt25LwWkXFG8pxcLaQe3JgC6YCtTXtYK5wAIgIcQBpFJO2scUPfJBXGNHI-URQHJ8FRecdk1Ko1IK5PM"
+      ]
+    }
+  ],
+  "rpcs": [
+    "https://rpc.devnet.archivist.storage"
+  ],
+  "marketplace": [
+    {
+      "supportedVersions": [
+        "v0.0.2"
+      ],
+      "contractAddress": "0x3885D426801B28D97D70b7ebB22b0fA4b580E4eD",
+      "abi": "[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"spender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"allowance\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"needed\",\"type\":\"uint256\"}],\"name\":\"ERC20InsufficientAllowance\",\"type\":\"error\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"balance\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"needed\",\"type\":\"uint256\"}],\"name\":\"ERC20InsufficientBalance\",\"type\":\"error\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"approver\",\"type\":\"address\"}],\"name\":\"ERC20InvalidApprover\",\"type\":\"error\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"receiver\",\"type\":\"address\"}],\"name\":\"ERC20InvalidReceiver\",\"type\":\"error\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"}],\"name\":\"ERC20InvalidSender\",\"type\":\"error\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"spender\",\"type\":\"address\"}],\"name\":\"ERC20InvalidSpender\",\"type\":\"error\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"spender\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"Approval\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"Transfer\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"spender\",\"type\":\"address\"}],\"name\":\"allowance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"spender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"approve\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"balanceOf\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"decimals\",\"outputs\":[{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"holder\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"mint\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"symbol\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"totalSupply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"transfer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"transferFrom\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}]"
+    }
+  ],
+  "team": {
+    "nodes": [
+      {
+        "category": "hosts",
+        "versions": [
+          {
+            "version": "v0.0.2",
+            "instances": [
+              {
+                "name": "archivist-storage-01",
+                "podName": "archivist-storage-1-1",
+                "ethAddress": "0x5b36d9ED9513DCcc090a390Ff16d89a2CAd61765"
+              },
+              {
+                "name": "archivist-storage-02",
+                "podName": "archivist-storage-2-1",
+                "ethAddress": "0xcD4FC79C79B7795a347804CBF16Eb049B78D9317"
+              },
+              {
+                "name": "archivist-storage-03",
+                "podName": "archivist-storage-3-1",
+                "ethAddress": "0x04F72d0cf96FA0cA11d70Ac1519e98BEc1dd6DDc"
+              },
+              {
+                "name": "archivist-storage-04",
+                "podName": "archivist-storage-4-1",
+                "ethAddress": "0x478D57d9de99ba58A6E9d124aAFF23de0B1DCB2C"
+              },
+              {
+                "name": "archivist-storage-05",
+                "podName": "archivist-storage-5-1",
+                "ethAddress": "0x413d68642055c1D7FF5F649113FA7f8f58b48161"
+              },
+              {
+                "name": "archivist-storage-06",
+                "podName": "archivist-storage-6-1",
+                "ethAddress": "0x54CbCd369b48139eF7Fa2e309D1da730067Bf95B"
+              },
+              {
+                "name": "archivist-storage-07",
+                "podName": "archivist-storage-7-1",
+                "ethAddress": "0xe463474b207AA7F8Cd4c3E9032aa77398bC751de"
+              },
+              {
+                "name": "archivist-storage-08",
+                "podName": "archivist-storage-8-1",
+                "ethAddress": "0x57738c9433895Ce67A6ac96F0515Bf21e09a4878"
+              },
+              {
+                "name": "archivist-storage-09",
+                "podName": "archivist-storage-9-1",
+                "ethAddress": "0x1014d594d5A1a479355446CF5AcC01481613B4E6"
+              },
+              {
+                "name": "archivist-storage-10",
+                "podName": "archivist-storage-10-1",
+                "ethAddress": "0xF2405d81F990e3e6613a7009Ec9C7D8446eD6982"
+              },
+              {
+                "name": "archivist-storage-11",
+                "podName": "archivist-storage-11-1",
+                "ethAddress": "0x3E519514853D27Dc300920a13c99212443A53f48"
+              },
+              {
+                "name": "archivist-storage-12",
+                "podName": "archivist-storage-12-1",
+                "ethAddress": "0xE25A0b9162A81343bD4370D3731987F2D06BAf30"
+              },
+              {
+                "name": "archivist-storage-13",
+                "podName": "archivist-storage-13-1",
+                "ethAddress": "0x9EfB42c294a53c6B38AC633742e6c2a209F8C845"
+              },
+              {
+                "name": "archivist-storage-14",
+                "podName": "archivist-storage-14-1",
+                "ethAddress": "0xff1D0585F3E1e1E0cE745E75970445294CD59a3f"
+              },
+              {
+                "name": "archivist-storage-15",
+                "podName": "archivist-storage-15-1",
+                "ethAddress": "0xAf8dE65B8cA360E8bEafbDDBF467715347a47a4f"
+              },
+              {
+                "name": "archivist-storage-16",
+                "podName": "archivist-storage-16-1",
+                "ethAddress": "0x01bF38a8bcd1e4a840175F10d5Dc2Cacf746F209"
+              },
+              {
+                "name": "archivist-storage-17",
+                "podName": "archivist-storage-17-1",
+                "ethAddress": "0x6580012b1E7a94Ab786DbB6427d3338B185CC15d"
+              },
+              {
+                "name": "archivist-storage-18",
+                "podName": "archivist-storage-18-1",
+                "ethAddress": "0x08545459e2254D30eCd389d9fDA298b4E19C92c6"
+              },
+              {
+                "name": "archivist-storage-19",
+                "podName": "archivist-storage-19-1",
+                "ethAddress": "0xeA7254fa918ac7587Ce533474AaBbE9130987d87"
+              },
+              {
+                "name": "archivist-storage-20",
+                "podName": "archivist-storage-20-1",
+                "ethAddress": "0xec815399187e70659b010C29866BC8895Ea8cBF1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "clients",
+        "versions": [
+          {
+            "version": "v0.0.2",
+            "instances": [
+              {
+                "name": "eth-archiver-1",
+                "ethAddress": "0x9bc1b45de7a67a064932a4f18a415d0adce4ca56"
+              },
+              {
+                "name": "eth-archiver-2",
+                "ethAddress": "0x5a2170d0701e5dc8b8010749c060c0c6035fd262"
+              },
+              {
+                "name": "eth-archiver-3",
+                "ethAddress": "0xd5ae7cd1cac123521ff87746ff97385046f2b9ce"
+              },
+              {
+                "name": "eth-archiver-4",
+                "ethAddress": "0x45c3ad9d81bcf83df3621af33d00d768df500995"
+              },
+              {
+                "name": "eth-archiver-5",
+                "ethAddress": "0xe62dde833688a9f1ebfe24299c80d84c94e6ba54"
+              },
+              {
+                "name": "eth-archiver-6",
+                "ethAddress": "0xb9fa41df8abfe2ab0836d4e67f62bc3f2b273636"
+              },
+              {
+                "name": "eth-archiver-7",
+                "ethAddress": "0x3360b00f7f0a0d8e8dd3a24602c257e6a8f8ea65"
+              },
+              {
+                "name": "eth-archiver-8",
+                "ethAddress": "0x2aa84fc95d0f9db0695c665dd7e577792baf4b7a"
+              },
+              {
+                "name": "eth-archiver-9",
+                "ethAddress": "0xb5eb517850f3afd51b3c54144fe6bf3ce58139bb"
+              },
+              {
+                "name": "eth-archiver-10",
+                "ethAddress": "0xdf5c4abdbcd213cdecbb394934cbd2354bc479aa"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "validators",
+        "versions": [
+          {
+            "version": "v0.0.2",
+            "instances": [
+              {
+                "name": "archivist-validator-01",
+                "podName": "archivist-validator-1-1",
+                "ethAddress": "0x4324f2F3a557615E2A6a32d3A272FC1601699B7c"
+              },
+              {
+                "name": "archivist-validator-02",
+                "podName": "archivist-validator-2-1",
+                "ethAddress": "0x22AD6905B871d8F1B8b8DB4DbadcB41391d025CC"
+              },
+              {
+                "name": "archivist-validator-03",
+                "podName": "archivist-validator-3-1",
+                "ethAddress": "0x590Cce5f1a42F54b133403FcA8E5fCea497C3a46"
+              },
+              {
+                "name": "archivist-validator-04",
+                "podName": "archivist-validator-4-1",
+                "ethAddress": "0x38fD196A6C716ad66D62aaa87168fAe3ae644201"
+              },
+              {
+                "name": "archivist-validator-05",
+                "podName": "archivist-validator-5-1",
+                "ethAddress": "0x3007e4C067470EEcBc7Acc3BcE696CC825f47c10"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "utils": {
+      "crawlerRpc": "https://rpc.devnet.archivist.storage",
+      "botRpc": "https://rpc.devnet.archivist.storage",
+      "elasticSearch": "https://es.testnet.archivist.storage",
+      "gateway": "https://gateway.devnet.archivist.storage",
+      "transactionLinkFormat": "https://explorer.devnet.archivist.storage/tx/<ID>"
+    }
+  }
+}
