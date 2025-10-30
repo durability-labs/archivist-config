@@ -233,7 +233,7 @@
       "crawlerRpc": "https://rpc.devnet.archivist.storage",
       "botRpc": "https://rpc.devnet.archivist.storage",
       "elasticSearch": "https://es.testnet.archivist.storage",
-      "gateway": "https://gateway.devnet.archivist.storage",
+      "gateway": "https://devnet.archivist.ing",
       "transactionLinkFormat": "https://explorer.devnet.archivist.storage/tx/<ID>"
     }
   }
