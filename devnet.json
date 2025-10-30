@@ -1,9 +1,9 @@
 {
-  "latest": "v0.0.2",
+  "latest": "",
   "archivist": [
     {
-      "version": "v0.0.2",
-      "revision": "8ef225d",
+      "version": "",
+      "revision": "a1690e5",
       "contracts": "bae2180"
     }
   ],
