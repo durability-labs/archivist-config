@@ -63,81 +63,6 @@
                 "name": "archivist-storage-05",
                 "podName": "archivist-storage-5-1",
                 "ethAddress": "0x413d68642055c1D7FF5F649113FA7f8f58b48161"
-              },
-              {
-                "name": "archivist-storage-06",
-                "podName": "archivist-storage-6-1",
-                "ethAddress": "0x54CbCd369b48139eF7Fa2e309D1da730067Bf95B"
-              },
-              {
-                "name": "archivist-storage-07",
-                "podName": "archivist-storage-7-1",
-                "ethAddress": "0xe463474b207AA7F8Cd4c3E9032aa77398bC751de"
-              },
-              {
-                "name": "archivist-storage-08",
-                "podName": "archivist-storage-8-1",
-                "ethAddress": "0x57738c9433895Ce67A6ac96F0515Bf21e09a4878"
-              },
-              {
-                "name": "archivist-storage-09",
-                "podName": "archivist-storage-9-1",
-                "ethAddress": "0x1014d594d5A1a479355446CF5AcC01481613B4E6"
-              },
-              {
-                "name": "archivist-storage-10",
-                "podName": "archivist-storage-10-1",
-                "ethAddress": "0xF2405d81F990e3e6613a7009Ec9C7D8446eD6982"
-              },
-              {
-                "name": "archivist-storage-11",
-                "podName": "archivist-storage-11-1",
-                "ethAddress": "0x3E519514853D27Dc300920a13c99212443A53f48"
-              },
-              {
-                "name": "archivist-storage-12",
-                "podName": "archivist-storage-12-1",
-                "ethAddress": "0xE25A0b9162A81343bD4370D3731987F2D06BAf30"
-              },
-              {
-                "name": "archivist-storage-13",
-                "podName": "archivist-storage-13-1",
-                "ethAddress": "0x9EfB42c294a53c6B38AC633742e6c2a209F8C845"
-              },
-              {
-                "name": "archivist-storage-14",
-                "podName": "archivist-storage-14-1",
-                "ethAddress": "0xff1D0585F3E1e1E0cE745E75970445294CD59a3f"
-              },
-              {
-                "name": "archivist-storage-15",
-                "podName": "archivist-storage-15-1",
-                "ethAddress": "0xAf8dE65B8cA360E8bEafbDDBF467715347a47a4f"
-              },
-              {
-                "name": "archivist-storage-16",
-                "podName": "archivist-storage-16-1",
-                "ethAddress": "0x01bF38a8bcd1e4a840175F10d5Dc2Cacf746F209"
-              },
-              {
-                "name": "archivist-storage-17",
-                "podName": "archivist-storage-17-1",
-                "ethAddress": "0x6580012b1E7a94Ab786DbB6427d3338B185CC15d"
-              },
-              {
-                "name": "archivist-storage-18",
-                "podName": "archivist-storage-18-1",
-                "ethAddress": "0x08545459e2254D30eCd389d9fDA298b4E19C92c6"
-              },
-              {
-                "name": "archivist-storage-19",
-                "podName": "archivist-storage-19-1",
-                "ethAddress": "0xeA7254fa918ac7587Ce533474AaBbE9130987d87"
-              },
-              {
-                "name": "archivist-storage-20",
-                "podName": "archivist-storage-20-1",
-                "ethAddress": "0xec815399187e70659b010C29866BC8895Ea8cBF1"
               }
             ]
           }
@@ -203,26 +128,6 @@
                 "name": "archivist-validator-01",
                 "podName": "archivist-validator-1-1",
                 "ethAddress": "0x4324f2F3a557615E2A6a32d3A272FC1601699B7c"
-              },
-              {
-                "name": "archivist-validator-02",
-                "podName": "archivist-validator-2-1",
-                "ethAddress": "0x22AD6905B871d8F1B8b8DB4DbadcB41391d025CC"
-              },
-              {
-                "name": "archivist-validator-03",
-                "podName": "archivist-validator-3-1",
-                "ethAddress": "0x590Cce5f1a42F54b133403FcA8E5fCea497C3a46"
-              },
-              {
-                "name": "archivist-validator-04",
-                "podName": "archivist-validator-4-1",
-                "ethAddress": "0x38fD196A6C716ad66D62aaa87168fAe3ae644201"
-              },
-              {
-                "name": "archivist-validator-05",
-                "podName": "archivist-validator-5-1",
-                "ethAddress": "0x3007e4C067470EEcBc7Acc3BcE696CC825f47c10"
               }
             ]
           }
