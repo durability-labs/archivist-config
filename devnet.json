@@ -1,9 +1,9 @@
 {
-  "latest": "fc23f40",
+  "latest": "fa87eb1",
   "archivist": [
     {
-      "version": "fc23f40",
-      "revision": "fc23f40",
+      "version": "fa87eb1",
+      "revision": "fa87eb1",
       "contracts": "bae2180"
     }
   ],
@@ -37,7 +37,7 @@
         "category": "hosts",
         "versions": [
           {
-            "version": "fc23f40",
+            "version": "fa87eb1",
             "instances": [
               {
                 "name": "archivist-storage-01",
@@ -72,7 +72,7 @@
         "category": "clients",
         "versions": [
           {
-            "version": "fc23f40",
+            "version": "fa87eb1",
             "instances": [
               {
                 "name": "eth-archiver-1",
@@ -122,7 +122,7 @@
         "category": "validators",
         "versions": [
           {
-            "version": "fc23f40",
+            "version": "fa87eb1",
             "instances": [
               {
                 "name": "archivist-validator-01",
