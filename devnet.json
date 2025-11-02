@@ -1,9 +1,9 @@
 {
-  "latest": "f0ad3ed",
+  "latest": "7c1eb3d",
   "archivist": [
     {
-      "version": "f0ad3ed",
-      "revision": "f0ad3ed",
+      "version": "7c1eb3d",
+      "revision": "7c1eb3d",
       "contracts": "bae2180"
     }
   ],
@@ -37,7 +37,7 @@
         "category": "hosts",
         "versions": [
           {
-            "version": "f0ad3ed",
+            "version": "7c1eb3d",
             "instances": [
               {
                 "name": "archivist-storage-01",
@@ -72,7 +72,7 @@
         "category": "clients",
         "versions": [
           {
-            "version": "f0ad3ed",
+            "version": "7c1eb3d",
             "instances": [
               {
                 "name": "eth-archiver-1",
@@ -122,7 +122,7 @@
         "category": "validators",
         "versions": [
           {
-            "version": "f0ad3ed",
+            "version": "7c1eb3d",
             "instances": [
               {
                 "name": "archivist-validator-01",
