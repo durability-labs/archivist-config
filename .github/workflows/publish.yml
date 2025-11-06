@@ -33,16 +33,21 @@ jobs:
 
       - name: Prepare file
         run: |
-          mkdir ${{ env.folder }}
-          find . \
-            -maxdepth 1 \
-            -mindepth 1 \
-            ! -name site \
-            ! -name CNAME \
-            ! -name '*.md' \
-            ! -name ".git*" \
-            ! -name "LICENSE*" \
-            -exec cp -r {} ${{ env.folder }} \;
+          # Copy JSON
+          mkdir -p ${{ env.folder }}
+          cp *.json ${{ env.folder }}
+
+          # Prepare spr and marketplace
+          for file in *.json; do
+            network="${file%.*}"
+            mkdir "${{ env.folder }}/${network}"
+
+            # spr
+            jq -r '.sprs[].records[]' "${file}" > "${{ env.folder }}/${network}/spr"
+
+            # marketplace
+            jq -r '.marketplace[].contractAddress' "${file}" > "${{ env.folder }}/${network}/marketplace"
+          done
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
