@@ -2,13 +2,23 @@
 
  Repository contains configuration files for Archivist and internal service.
 
-
  All files can be accessed via https://config.archivist.storage endpoint.
 
-
 ## Configuration files
-
  - `testnet.json` - Testnet services configuration file.
+ - `devnet.json` - Devnet services configuration file.
+
+## Text endpoints
+We are generating text endpoints to simplify usage and do not use JSON parsing tools
+```shell
+# Testnet
+curl -s https://config.archivist.storage/devnet/spr
+curl -s https://config.archivist.storage/testnet/marketplace
+
+# Devnet
+curl -s https://config.archivist.storage/devnet/spr
+curl -s https://config.archivist.storage/devnet/marketplace
+```
 
 ## Usage
 Applications listed below will use the config.archivist.storage endpoint, and will respond to the following environment-variables:
