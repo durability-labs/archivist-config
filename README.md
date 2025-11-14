@@ -12,7 +12,7 @@
 We are generating text endpoints to simplify usage and do not use JSON parsing tools
 ```shell
 # Testnet
-curl -s https://config.archivist.storage/devnet/spr
+curl -s https://config.archivist.storage/testnet/spr
 curl -s https://config.archivist.storage/testnet/marketplace
 
 # Devnet
