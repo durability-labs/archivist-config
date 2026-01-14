@@ -132,6 +132,21 @@
             ]
           }
         ]
+      },
+      {
+        "category": "marketplaces",
+        "versions": [
+          {
+            "version": "3bb8c93",
+            "instances": [
+              {
+                "name": "archivist-marketplace-rom-01",
+                "podName": "archivist-marketplace-rom-1-1",
+                "ethAddress": "0xc449041928c54F7D48FdF65138FC591B23dC2266"
+              }
+            ]
+          }
+        ]
       }
     ],
     "utils": {
